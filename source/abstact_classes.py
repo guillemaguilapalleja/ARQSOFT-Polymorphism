@@ -10,7 +10,7 @@ class ComparableSorterAbstractClass(ABC):
     @abstractmethod
     def sort_by_height(self, buildings_list: list[Building]) -> None:
         """Sort an array of buildings by its height
-        @param buildings_list: List of buildings to sort
+        :param: buildings_list: List of buildings to sort
         :returns: None
         """
         pass
