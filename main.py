@@ -20,8 +20,14 @@ def main() -> None:
     bubble_sorter.sort_by_height(buildings_list)
     dir_insert_sorter.sort_by_height(copy_buildings_list)
 
-    print("List after sorting with Bubble sorter:", buildings_list)
-    print("List after sorting with Dir Insert sorter:", copy_buildings_list)
+    print("List after sorting by HEIGHT with Bubble sorter:", buildings_list)
+    print("List after sorting by HEIGHT with Dir Insert sorter:", copy_buildings_list)
+
+    bubble_sorter.sort_by_volume(buildings_list)
+    dir_insert_sorter.sort_by_volume(copy_buildings_list)
+
+    print("List after sorting by VOLUME with Bubble sorter:", buildings_list)
+    print("List after sorting by VOLUME with Dir Insert sorter:", copy_buildings_list)
 
 
 if __name__ == '__main__':
