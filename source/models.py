@@ -4,4 +4,4 @@ class Building:
         self.height_meters = height_meters
 
     def __repr__(self):
-        return f'{self.volume_cube_meters}'
+        return f'H:{self.height_meters} V:{self.volume_cube_meters}'
